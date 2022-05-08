@@ -1,0 +1,12 @@
+.parentComment blockquote {
+  background: #ddd;
+  padding: 15px;
+  border-left: 5px solid gray;
+  border-radius: 10px 0 0 10px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.parentComment {
+  box-shadow: 5px 5px 10px #ddd;
+}

@@ -1,0 +1,109 @@
+a {
+  text-decoration: none;
+  outline: none;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.btn-master {
+  color: #fff;
+  padding: 0 20px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 30px;
+  font-size: 16px;
+  line-height: 50px;
+  text-align: center;
+  display: inline-block;
+  font-weight: 800;
+}
+.bg-master {
+  background: #17a2b8;
+}
+.bgSecondary {
+  background-color: #153a4f;
+}
+.fd2 {
+  gap: 1rem;
+  flex-wrap: nowrap;
+}
+.oporArea {
+  flex-wrap: wrap;
+  gap: 3%;
+}
+.d-flex {
+  display: flex;
+}
+.col {
+  width: 31.33%;
+}
+.color {
+  color: #17a2b8;
+}
+.sectionArea {
+  padding: 50px 0;
+}
+.h-100 {
+  height: 100%;
+}
+
+.afterLine,
+.afterBeforeLine {
+  position: relative;
+  text-transform: uppercase;
+}
+
+.afterLine::after,
+.afterBeforeLine::after {
+  position: absolute;
+  width: 200px;
+  height: 3px;
+  background: #17a2bb;
+  top: 50%;
+  content: "";
+  transform: translateY(-50%) translateX(8%);
+}
+
+.afterBeforeLine::before {
+  position: absolute;
+  width: 200px;
+  height: 3px;
+  background: #17a2bb;
+  top: 50%;
+  left: 23%;
+  content: "";
+  transform: translateY(-50%) translateX(0%);
+}
+
+.section-heading {
+  text-align: center;
+  padding: 50px;
+}
+tr th {
+  text-align: end;
+}
+
+.classTable .btn {
+  margin: 0 auto;
+  display: block;
+}
+
+.classCard h5 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 20px 0;
+}
+
+.classCard p {
+  text-align: center;
+  font-size: 18px;
+  border-bottom: 2px solid #a8a8a8;
+  padding: 0 0 15px 0;
+}
+
+.formArea {
+  padding: 40px 20px;
+}

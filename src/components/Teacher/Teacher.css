@@ -1,0 +1,14 @@
+.parent img,
+.teacherPhoto img {
+  border-radius: 50% !important;
+  display: block;
+}
+.singleTeacher {
+  text-align: center;
+}
+
+.singleTeacher h3 {
+  margin: 10px 0;
+  font-weight: 800;
+  font-family: Arial;
+}

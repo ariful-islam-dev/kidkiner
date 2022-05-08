@@ -1,0 +1,16 @@
+.articleArea .card-title {
+  font-size: 25px;
+  padding: 10px 0;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+.articleArea .card-subtitle {
+  padding: 10px;
+}
+
+.articleArea .card-text {
+  font-size: 20px;
+  font-weight: 300;
+  text-align: justify;
+}

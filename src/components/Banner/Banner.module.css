@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.bannerConnet h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.bannerConnet h1 {
+  font-size: 70px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.bannerConnet p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+}
+.thumbnail {
+  width: 40%;
+}
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+}
